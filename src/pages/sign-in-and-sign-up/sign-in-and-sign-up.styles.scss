@@ -1,0 +1,25 @@
+.sign-in-and-sign-up {
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    
+
+    @media screen and (max-width: 480px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 100px;
+        margin-left: 30px;
+        width: 80vw;
+    }
+
+    @media (min-width:481px) and (max-width: 800px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+    }
+    
+
+      
+}
